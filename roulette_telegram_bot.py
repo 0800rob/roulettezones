@@ -4,13 +4,13 @@ import requests
 from collections import defaultdict, deque
 
 # Configurações do Telegram
-TOKEN = "7479614767:AAF5zzSuDW4_5Aj4Qd59pCyD3N9vVtEERQA"
+TOKEN = "TOKEN" #Token criado pelo BotFather
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 chat_ids = set()
 last_update_id = None
 
 # Restrição de acesso: Substitua pelo seu próprio chat_id
-ALLOWED_CHAT_IDS = {5972132924}  # Substitua pelo seu chat_id
+ALLOWED_CHAT_IDS = {}  # Substitua pelo seu chat_id
 
 def send_telegram_message(chat_id, message):
     """Envia uma mensagem para o chat especificado."""
