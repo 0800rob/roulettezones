@@ -1,0 +1,15 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+
+# Virtual environment
+venv/
+.env
+
+# Logs
+*.log
+
+# Playwright browser cache
+playwright/.cache
